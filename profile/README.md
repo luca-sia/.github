@@ -4,7 +4,7 @@ Lucasia Ltd builds calm, automated software for small teams.
 
 ## Products
 
-- **Lucasia One**: one place to run your business, with automation doing the routine work. [lucasia.one](https://lucasia.one)
+- **Lucasia ONE**: one place to run your business, with automation doing the routine work. [lucasia.one](https://lucasia.one)
 - **Lucaversia**: the agent platform behind our work, routing each task to the right model and metering every token. [lucaversia.dev](https://lucaversia.dev)
 
 ## Also from Lucasia
