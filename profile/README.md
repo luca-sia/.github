@@ -18,10 +18,11 @@ We build Lucasia ONE, and we design, build and run websites, apps and AI agent p
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1119,"lines":2717380,"tokens":null,"languages":[{"name":"TypeScript","pct":73.4},{"name":"HTML","pct":11.7},{"name":"PLpgSQL","pct":5.1},{"name":"JavaScript","pct":4.1},{"name":"CSS","pct":3.9},{"name":"Shell","pct":0.9}],"updated":"1 Nov 2026"} -->
+<!--stats-data {"prs":1119,"lines":2717380,"tokens":18444329832,"languages":[{"name":"TypeScript","pct":73.4},{"name":"HTML","pct":11.7},{"name":"PLpgSQL","pct":5.1},{"name":"JavaScript","pct":4.1},{"name":"CSS","pct":3.9},{"name":"Shell","pct":0.9}],"updated":"1 Nov 2026"} -->
 <p align="center">
   <img alt="PRs merged: 1,119" src="https://img.shields.io/badge/PRs_merged-1%2C119-0b5cad?style=for-the-badge">
   <img alt="Lines changed: 2.7M" src="https://img.shields.io/badge/Lines_changed-2.7M-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 18.4B" src="https://img.shields.io/badge/AI_tokens-18.4B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
   <img alt="TypeScript: 73.4%" src="https://img.shields.io/badge/TypeScript-73.4%25-30363d?style=flat-square">
