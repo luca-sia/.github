@@ -1,0 +1,43 @@
+name: Profile stats
+
+# Refreshes the "Last 30 days" block once a day on a GitHub hosted runner.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Count the last 30 days
+        env:
+          # Read only token that can see the private repos. Without it the last numbers stay.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          STATS_QUERIES: |
+            org:luca-sia
+          LANGUAGE_OWNERS: luca-sia
+          EXCLUDE_REPOS: luca-sia/aigi,luca-sia/aigi-wp-theme
+          USAGE_URL: ${{ secrets.USAGE_URL }}
+          USAGE_TOKEN: ${{ secrets.USAGE_TOKEN }}
+          USAGE_ACCESS_ID: ${{ secrets.USAGE_ACCESS_ID }}
+          USAGE_ACCESS_SECRET: ${{ secrets.USAGE_ACCESS_SECRET }}
+          README_PATH: profile/README.md
+        run: node scripts/profile-stats.mjs
+      - name: Commit when the numbers moved
+        run: |
+          git diff --quiet && exit 0
+          git -c user.name="Catalin" -c user.email="catalin@lucasia.ai" commit -am "Refresh profile stats"
+          git push
