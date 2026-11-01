@@ -8,7 +8,7 @@ We build Lucasia ONE, and we design, build and run websites, apps and AI agent p
 
 <a href="https://lucasia.ai"><img alt="Visit lucasia.ai" src="https://img.shields.io/badge/lucasia.ai-Visit_the_website-0b5cad?style=for-the-badge"></a>
 <a href="https://lucasia.one"><img alt="Visit Lucasia ONE" src="https://img.shields.io/badge/Lucasia_ONE-Run_your_business-0b5cad?style=for-the-badge"></a>
-<a href="https://status.lucasia.ai"><img alt="Service status" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fstatus.lucasia.ai%2Fapi%2Fstatus&query=%24.overall&label=Status&style=for-the-badge&color=1a7f37"></a>
+<a href="https://status.lucasia.ai"><img alt="Service status" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fstatus.lucasia.ai%2Fapi%2Fstatus&query=%24.overall&label=Status&style=for-the-badge&color=0b5cad"></a>
 
 <a href="https://lucasia.ai/accessibility"><img alt="Accessibility: WCAG 2.2 AAA" src="https://img.shields.io/badge/Accessibility-WCAG_2.2_AAA-1a7f37?style=flat-square"></a>
 <img alt="Made in the UK" src="https://img.shields.io/badge/Made_in-the_UK-30363d?style=flat-square">

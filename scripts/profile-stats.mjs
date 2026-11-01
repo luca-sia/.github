@@ -42,7 +42,8 @@ const lanes = new Set((env.USAGE_LANES || 'none,lucasia').split(',').map((l) => 
 
 const now = new Date()
 const day = (d) => d.toISOString().slice(0, 10)
-const since = new Date(now.getTime() - DAYS * 86_400_000)
+// 30 whole UTC days ending today: the same window for pull requests and tokens.
+const since = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - (DAYS - 1)))
 
 async function graphql(query, variables) {
 	for (let attempt = 1; ; attempt++) {
@@ -68,7 +69,7 @@ const SEARCH = `query($q: String!, $after: String) {
 /** Merged PRs and lines changed for every query, one day at a time. */
 export async function pullRequestStats() {
 	const seen = new Map()
-	for (let i = 0; i <= DAYS; i++) {
+	for (let i = 0; i < DAYS; i++) {
 		const d = day(new Date(since.getTime() + i * 86_400_000))
 		if (d > day(now)) break
 		for (const base of queries) {
@@ -136,7 +137,8 @@ export async function tokenStats() {
 
 export function sumTokens(body, fromDay) {
 	let total = 0
-	for (const b of body.buckets ?? []) {
+	if (!Array.isArray(body?.buckets)) throw new Error('usage response has no buckets array')
+	for (const b of body.buckets) {
 		if (String(b.bucket) < fromDay) continue
 		for (const c of b.clients ?? []) if (lanes.has(c.client)) total += c.all?.totalTokens ?? 0
 	}
@@ -203,7 +205,9 @@ async function main() {
 	const tokens = (await keep('tokens', tokenStats, null)) ?? prev.tokens ?? null
 
 	const updated = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', day: 'numeric', month: 'short', year: 'numeric' }).format(now)
-	const stats = { prs: pr.prs, lines: pr.lines, tokens, languages, updated }
+	// Move the date only when a number moved, so an unchanged day makes no commit.
+	const same = pr.prs === prev.prs && pr.lines === prev.lines && tokens === (prev.tokens ?? null) && JSON.stringify(languages) === JSON.stringify(prev.languages ?? [])
+	const stats = { prs: pr.prs, lines: pr.lines, tokens, languages, updated: same && prev.updated ? prev.updated : updated }
 	const next = readme.slice(0, a) + render(stats) + readme.slice(b + END.length)
 	if (next !== readme) await writeFile(readmePath, next)
 	console.log(JSON.stringify(stats))
