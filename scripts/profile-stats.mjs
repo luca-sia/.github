@@ -18,11 +18,11 @@
  *   LANGUAGE_OWNERS     comma separated owners whose active repos feed the languages row
  *   EXCLUDE_REPOS       comma separated owner/name repos never counted (client work)
  *   README_PATH         file to update (default README.md)
- *   USAGE_URL           metering endpoint that answers { buckets: [...] } per day (optional)
+ *   USAGE_URL           metering endpoint that answers { tokens } for the last 30 days (optional)
  *   USAGE_TOKEN         bearer for USAGE_URL (optional)
  *   USAGE_ACCESS_ID     Cloudflare Access service token id (optional)
  *   USAGE_ACCESS_SECRET Cloudflare Access service token secret (optional)
- *   USAGE_LANES         lanes to count (default none,lucasia)
+ *   USAGE_LANES         lanes to count when the endpoint answers per day buckets (default none,lucasia)
  *
  * If a source fails, the last good number stays in place.
  */
@@ -136,8 +136,10 @@ export async function tokenStats() {
 }
 
 export function sumTokens(body, fromDay) {
+	// The summary endpoint already sums the window and leaves client lanes out.
+	if (Number.isFinite(body?.tokens) && body.tokens >= 0) return body.tokens
 	let total = 0
-	if (!Array.isArray(body?.buckets)) throw new Error('usage response has no buckets array')
+	if (!Array.isArray(body?.buckets)) throw new Error('usage response has no tokens or buckets')
 	for (const b of body.buckets) {
 		if (String(b.bucket) < fromDay) continue
 		for (const c of b.clients ?? []) if (lanes.has(c.client)) total += c.all?.totalTokens ?? 0
