@@ -37,7 +37,8 @@ jobs:
           README_PATH: profile/README.md
         run: node scripts/profile-stats.mjs
       - name: Commit when the numbers moved
-        # Committed through the GitHub API so GitHub signs it, as the org requires signed commits.
+        # Committed through the GitHub API by the Actions bot so GitHub signs it, as the org requires
+        # signed commits. A custom author would drop the signature, so none is set.
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -46,6 +47,5 @@ jobs:
           SHA=$(git rev-parse HEAD:$FILE)
           base64 -w0 "$FILE" > /tmp/readme.b64
           jq -n --rawfile content /tmp/readme.b64 --arg sha "$SHA" --arg branch "${GITHUB_REF_NAME}" \
-            '{message: "Refresh profile stats", content: $content, sha: $sha, branch: $branch,
-              author: {name: "Catalin", email: "catalin@lucasia.ai"}}' > /tmp/body.json
+            '{message: "Refresh profile stats", content: $content, sha: $sha, branch: $branch}' > /tmp/body.json
           gh api -X PUT "repos/${GITHUB_REPOSITORY}/contents/$FILE" --input /tmp/body.json --jq .commit.html_url
