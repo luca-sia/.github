@@ -2,7 +2,7 @@
 
 # Lucasia
 
-**Calm, automated software for small teams.**
+**Calm, automated software for ambitious businesses.**
 
 We build Lucasia ONE, and we design, build and run websites, apps and AI agent platforms for growing businesses.
 
@@ -42,11 +42,11 @@ We build Lucasia ONE, and we design, build and run websites, apps and AI agent p
 
 - **lsia.link**: short links, QR codes, NFC tags and contact cards.
 - **Plantopia Farm**: a growing project in validation.
-- **Foundry Fox**: small SaaS products.
+- **Foundry Fox**: focused SaaS products.
 
 ## How we work
 
-Small, tested changes shipped every day. Accessible by default, with WCAG 2.2 AAA as the target. Every change reviewed before it merges. Live uptime for every system at [status.lucasia.ai](https://status.lucasia.ai).
+Tested changes shipped every day. Accessible by default, with WCAG 2.2 AAA as the target. Every change reviewed before it merges. Live uptime for every system at [status.lucasia.ai](https://status.lucasia.ai).
 
 ---
 
