@@ -4,10 +4,10 @@
 
 **Calm, automated software for ambitious businesses.**
 
-We build Lucasia ONE, and we design, build and run websites, apps and AI agent platforms for growing businesses.
+We build Lucasia, one app to run your business. Lucasia Studio designs, builds and runs websites, apps and AI agent platforms for growing businesses.
 
 <a href="https://lucasia.ai"><img alt="Visit lucasia.ai" src="https://img.shields.io/badge/lucasia.ai-Visit_the_website-0b5cad?style=for-the-badge"></a>
-<a href="https://lucasia.one"><img alt="Visit Lucasia ONE" src="https://img.shields.io/badge/Lucasia_ONE-Run_your_business-0b5cad?style=for-the-badge"></a>
+<a href="https://lucasia.ai"><img alt="The Lucasia app" src="https://img.shields.io/badge/Lucasia-Run_your_business-0b5cad?style=for-the-badge"></a>
 <a href="https://status.lucasia.ai"><img alt="Service status" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fstatus.lucasia.ai%2Fapi%2Fstatus&query=%24.overall&label=Status&style=for-the-badge&color=0b5cad"></a>
 
 <a href="https://lucasia.ai/accessibility"><img alt="Accessibility: WCAG 2.2 AAA" src="https://img.shields.io/badge/Accessibility-WCAG_2.2_AAA-1a7f37?style=flat-square"></a>
@@ -37,7 +37,8 @@ We build Lucasia ONE, and we design, build and run websites, apps and AI agent p
 
 ## Products
 
-- **[Lucasia ONE](https://lucasia.one)**: one place to run your business, with automation doing the routine work.
+- **[Lucasia](https://lucasia.ai)**: one place to run your business, with automation doing the routine work.
+- **[Lucasia Studio](https://lucasia.ai/contact)**: websites, apps, AI and development work, requested by contact form or from your Lucasia account.
 
 ## Also from Lucasia
 
