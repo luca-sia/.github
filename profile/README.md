@@ -18,21 +18,21 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1182,"lines":3491426,"tokens":18869036509,"languages":[{"name":"TypeScript","pct":69.3},{"name":"HTML","pct":15.4},{"name":"PLpgSQL","pct":5},{"name":"JavaScript","pct":4.8},{"name":"CSS","pct":3.4},{"name":"Shell","pct":0.8}],"updated":"3 Nov 2026"} -->
+<!--stats-data {"prs":1182,"lines":3491426,"tokens":18786018371,"languages":[{"name":"TypeScript","pct":68.4},{"name":"HTML","pct":15.8},{"name":"PLpgSQL","pct":5.2},{"name":"JavaScript","pct":4.9},{"name":"CSS","pct":3.5},{"name":"Shell","pct":0.9}],"updated":"4 Nov 2026"} -->
 <p align="center">
   <img alt="PRs merged: 1,182" src="https://img.shields.io/badge/PRs_merged-1%2C182-0b5cad?style=for-the-badge">
   <img alt="Lines changed: 3.5M" src="https://img.shields.io/badge/Lines_changed-3.5M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 18.9B" src="https://img.shields.io/badge/AI_tokens-18.9B-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 18.8B" src="https://img.shields.io/badge/AI_tokens-18.8B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
-  <img alt="TypeScript: 69.3%" src="https://img.shields.io/badge/TypeScript-69.3%25-30363d?style=flat-square">
-  <img alt="HTML: 15.4%" src="https://img.shields.io/badge/HTML-15.4%25-30363d?style=flat-square">
-  <img alt="PLpgSQL: 5%" src="https://img.shields.io/badge/PLpgSQL-5%25-30363d?style=flat-square">
-  <img alt="JavaScript: 4.8%" src="https://img.shields.io/badge/JavaScript-4.8%25-30363d?style=flat-square">
-  <img alt="CSS: 3.4%" src="https://img.shields.io/badge/CSS-3.4%25-30363d?style=flat-square">
-  <img alt="Shell: 0.8%" src="https://img.shields.io/badge/Shell-0.8%25-30363d?style=flat-square">
+  <img alt="TypeScript: 68.4%" src="https://img.shields.io/badge/TypeScript-68.4%25-30363d?style=flat-square">
+  <img alt="HTML: 15.8%" src="https://img.shields.io/badge/HTML-15.8%25-30363d?style=flat-square">
+  <img alt="PLpgSQL: 5.2%" src="https://img.shields.io/badge/PLpgSQL-5.2%25-30363d?style=flat-square">
+  <img alt="JavaScript: 4.9%" src="https://img.shields.io/badge/JavaScript-4.9%25-30363d?style=flat-square">
+  <img alt="CSS: 3.5%" src="https://img.shields.io/badge/CSS-3.5%25-30363d?style=flat-square">
+  <img alt="Shell: 0.9%" src="https://img.shields.io/badge/Shell-0.9%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 3 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 4 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
