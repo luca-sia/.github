@@ -18,11 +18,11 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1191,"lines":3565761,"tokens":18233916633,"languages":[{"name":"TypeScript","pct":68.4},{"name":"HTML","pct":15.8},{"name":"PLpgSQL","pct":5.2},{"name":"JavaScript","pct":4.9},{"name":"CSS","pct":3.5},{"name":"Shell","pct":0.9}],"updated":"7 Nov 2026"} -->
+<!--stats-data {"prs":1191,"lines":3565761,"tokens":18050826605,"languages":[{"name":"TypeScript","pct":68.4},{"name":"HTML","pct":15.8},{"name":"PLpgSQL","pct":5.2},{"name":"JavaScript","pct":4.9},{"name":"CSS","pct":3.5},{"name":"Shell","pct":0.9}],"updated":"8 Nov 2026"} -->
 <p align="center">
   <img alt="PRs merged: 1,191" src="https://img.shields.io/badge/PRs_merged-1%2C191-0b5cad?style=for-the-badge">
   <img alt="Lines changed: 3.6M" src="https://img.shields.io/badge/Lines_changed-3.6M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 18.2B" src="https://img.shields.io/badge/AI_tokens-18.2B-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 18.1B" src="https://img.shields.io/badge/AI_tokens-18.1B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
   <img alt="TypeScript: 68.4%" src="https://img.shields.io/badge/TypeScript-68.4%25-30363d?style=flat-square">
@@ -32,7 +32,7 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
   <img alt="CSS: 3.5%" src="https://img.shields.io/badge/CSS-3.5%25-30363d?style=flat-square">
   <img alt="Shell: 0.9%" src="https://img.shields.io/badge/Shell-0.9%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 7 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 8 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
