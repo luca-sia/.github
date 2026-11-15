@@ -18,21 +18,21 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1307,"lines":3771121,"tokens":21058411970,"languages":[{"name":"TypeScript","pct":67.9},{"name":"HTML","pct":15.8},{"name":"JavaScript","pct":5.5},{"name":"PLpgSQL","pct":5},{"name":"CSS","pct":3.4},{"name":"Shell","pct":1.2}],"updated":"14 Nov 2026"} -->
+<!--stats-data {"prs":1259,"lines":3762049,"tokens":23996402735,"languages":[{"name":"TypeScript","pct":68},{"name":"HTML","pct":15.8},{"name":"JavaScript","pct":5.5},{"name":"PLpgSQL","pct":5},{"name":"CSS","pct":3.3},{"name":"Shell","pct":1.2}],"updated":"15 Nov 2026"} -->
 <p align="center">
-  <img alt="PRs merged: 1,307" src="https://img.shields.io/badge/PRs_merged-1%2C307-0b5cad?style=for-the-badge">
+  <img alt="PRs merged: 1,259" src="https://img.shields.io/badge/PRs_merged-1%2C259-0b5cad?style=for-the-badge">
   <img alt="Lines changed: 3.8M" src="https://img.shields.io/badge/Lines_changed-3.8M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 21.1B" src="https://img.shields.io/badge/AI_tokens-21.1B-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 24B" src="https://img.shields.io/badge/AI_tokens-24B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
-  <img alt="TypeScript: 67.9%" src="https://img.shields.io/badge/TypeScript-67.9%25-30363d?style=flat-square">
+  <img alt="TypeScript: 68%" src="https://img.shields.io/badge/TypeScript-68%25-30363d?style=flat-square">
   <img alt="HTML: 15.8%" src="https://img.shields.io/badge/HTML-15.8%25-30363d?style=flat-square">
   <img alt="JavaScript: 5.5%" src="https://img.shields.io/badge/JavaScript-5.5%25-30363d?style=flat-square">
   <img alt="PLpgSQL: 5%" src="https://img.shields.io/badge/PLpgSQL-5%25-30363d?style=flat-square">
-  <img alt="CSS: 3.4%" src="https://img.shields.io/badge/CSS-3.4%25-30363d?style=flat-square">
+  <img alt="CSS: 3.3%" src="https://img.shields.io/badge/CSS-3.3%25-30363d?style=flat-square">
   <img alt="Shell: 1.2%" src="https://img.shields.io/badge/Shell-1.2%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 14 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 15 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
