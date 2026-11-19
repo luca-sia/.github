@@ -18,11 +18,11 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1280,"lines":3691824,"tokens":27052486260,"languages":[{"name":"TypeScript","pct":67.7},{"name":"HTML","pct":15.4},{"name":"JavaScript","pct":6.2},{"name":"PLpgSQL","pct":4.9},{"name":"CSS","pct":3.3},{"name":"Shell","pct":1.3}],"updated":"18 Nov 2026"} -->
+<!--stats-data {"prs":1119,"lines":3619758,"tokens":27047910107,"languages":[{"name":"TypeScript","pct":67.7},{"name":"HTML","pct":15.4},{"name":"JavaScript","pct":6.2},{"name":"PLpgSQL","pct":4.9},{"name":"CSS","pct":3.3},{"name":"Shell","pct":1.3}],"updated":"19 Nov 2026"} -->
 <p align="center">
-  <img alt="PRs merged: 1,280" src="https://img.shields.io/badge/PRs_merged-1%2C280-0b5cad?style=for-the-badge">
-  <img alt="Lines changed: 3.7M" src="https://img.shields.io/badge/Lines_changed-3.7M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 27.1B" src="https://img.shields.io/badge/AI_tokens-27.1B-0b5cad?style=for-the-badge">
+  <img alt="PRs merged: 1,119" src="https://img.shields.io/badge/PRs_merged-1%2C119-0b5cad?style=for-the-badge">
+  <img alt="Lines changed: 3.6M" src="https://img.shields.io/badge/Lines_changed-3.6M-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 27B" src="https://img.shields.io/badge/AI_tokens-27B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
   <img alt="TypeScript: 67.7%" src="https://img.shields.io/badge/TypeScript-67.7%25-30363d?style=flat-square">
@@ -32,7 +32,7 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
   <img alt="CSS: 3.3%" src="https://img.shields.io/badge/CSS-3.3%25-30363d?style=flat-square">
   <img alt="Shell: 1.3%" src="https://img.shields.io/badge/Shell-1.3%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 18 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 19 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
