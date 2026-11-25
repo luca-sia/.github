@@ -38,6 +38,7 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Products
 
 - **[Lucasia](https://lucasia.ai)**: one place to run your business, with automation doing the routine work.
+- **[Versimo](https://versimo.dev)**: every module runs last, current and next. No staging, next goes live behind a flag and a failing version rolls back on its own. The library is open source on [GitHub](https://github.com/luca-sia/versimo) for TypeScript, Python, Go, Kotlin and Swift.
 - **[Lucasia Studio](https://lucasia.ai/contact)**: websites, apps, AI and development work, requested by contact form or from your Lucasia account.
 
 ## Also from Lucasia
