@@ -18,21 +18,21 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":973,"lines":3508463,"tokens":23359973610,"languages":[{"name":"TypeScript","pct":67.7},{"name":"HTML","pct":15.4},{"name":"JavaScript","pct":6.3},{"name":"PLpgSQL","pct":4.8},{"name":"CSS","pct":3.2},{"name":"Shell","pct":1.3}],"updated":"24 Nov 2026"} -->
+<!--stats-data {"prs":1066,"lines":3163781,"tokens":24271615933,"languages":[{"name":"TypeScript","pct":72.1},{"name":"HTML","pct":12.3},{"name":"JavaScript","pct":6.2},{"name":"PLpgSQL","pct":3.9},{"name":"CSS","pct":2.6},{"name":"Shell","pct":1.2}],"updated":"26 Nov 2026"} -->
 <p align="center">
-  <img alt="PRs merged: 973" src="https://img.shields.io/badge/PRs_merged-973-0b5cad?style=for-the-badge">
-  <img alt="Lines changed: 3.5M" src="https://img.shields.io/badge/Lines_changed-3.5M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 23.4B" src="https://img.shields.io/badge/AI_tokens-23.4B-0b5cad?style=for-the-badge">
+  <img alt="PRs merged: 1,066" src="https://img.shields.io/badge/PRs_merged-1%2C066-0b5cad?style=for-the-badge">
+  <img alt="Lines changed: 3.2M" src="https://img.shields.io/badge/Lines_changed-3.2M-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 24.3B" src="https://img.shields.io/badge/AI_tokens-24.3B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
-  <img alt="TypeScript: 67.7%" src="https://img.shields.io/badge/TypeScript-67.7%25-30363d?style=flat-square">
-  <img alt="HTML: 15.4%" src="https://img.shields.io/badge/HTML-15.4%25-30363d?style=flat-square">
-  <img alt="JavaScript: 6.3%" src="https://img.shields.io/badge/JavaScript-6.3%25-30363d?style=flat-square">
-  <img alt="PLpgSQL: 4.8%" src="https://img.shields.io/badge/PLpgSQL-4.8%25-30363d?style=flat-square">
-  <img alt="CSS: 3.2%" src="https://img.shields.io/badge/CSS-3.2%25-30363d?style=flat-square">
-  <img alt="Shell: 1.3%" src="https://img.shields.io/badge/Shell-1.3%25-30363d?style=flat-square">
+  <img alt="TypeScript: 72.1%" src="https://img.shields.io/badge/TypeScript-72.1%25-30363d?style=flat-square">
+  <img alt="HTML: 12.3%" src="https://img.shields.io/badge/HTML-12.3%25-30363d?style=flat-square">
+  <img alt="JavaScript: 6.2%" src="https://img.shields.io/badge/JavaScript-6.2%25-30363d?style=flat-square">
+  <img alt="PLpgSQL: 3.9%" src="https://img.shields.io/badge/PLpgSQL-3.9%25-30363d?style=flat-square">
+  <img alt="CSS: 2.6%" src="https://img.shields.io/badge/CSS-2.6%25-30363d?style=flat-square">
+  <img alt="Shell: 1.2%" src="https://img.shields.io/badge/Shell-1.2%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 24 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 26 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
