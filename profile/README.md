@@ -18,21 +18,21 @@ We build Lucasia, one app to run your business. Lucasia Studio designs, builds a
 ## Last 30 days
 
 <!--START_SECTION:stats-->
-<!--stats-data {"prs":1066,"lines":3163781,"tokens":24271615933,"languages":[{"name":"TypeScript","pct":72.1},{"name":"HTML","pct":12.3},{"name":"JavaScript","pct":6.2},{"name":"PLpgSQL","pct":3.9},{"name":"CSS","pct":2.6},{"name":"Shell","pct":1.2}],"updated":"26 Nov 2026"} -->
+<!--stats-data {"prs":1066,"lines":3163781,"tokens":24692942719,"languages":[{"name":"TypeScript","pct":72.3},{"name":"HTML","pct":12.2},{"name":"JavaScript","pct":6.2},{"name":"PLpgSQL","pct":3.9},{"name":"CSS","pct":2.6},{"name":"Shell","pct":1.2}],"updated":"27 Nov 2026"} -->
 <p align="center">
   <img alt="PRs merged: 1,066" src="https://img.shields.io/badge/PRs_merged-1%2C066-0b5cad?style=for-the-badge">
   <img alt="Lines changed: 3.2M" src="https://img.shields.io/badge/Lines_changed-3.2M-0b5cad?style=for-the-badge">
-  <img alt="AI tokens: 24.3B" src="https://img.shields.io/badge/AI_tokens-24.3B-0b5cad?style=for-the-badge">
+  <img alt="AI tokens: 24.7B" src="https://img.shields.io/badge/AI_tokens-24.7B-0b5cad?style=for-the-badge">
 </p>
 <p align="center">
-  <img alt="TypeScript: 72.1%" src="https://img.shields.io/badge/TypeScript-72.1%25-30363d?style=flat-square">
-  <img alt="HTML: 12.3%" src="https://img.shields.io/badge/HTML-12.3%25-30363d?style=flat-square">
+  <img alt="TypeScript: 72.3%" src="https://img.shields.io/badge/TypeScript-72.3%25-30363d?style=flat-square">
+  <img alt="HTML: 12.2%" src="https://img.shields.io/badge/HTML-12.2%25-30363d?style=flat-square">
   <img alt="JavaScript: 6.2%" src="https://img.shields.io/badge/JavaScript-6.2%25-30363d?style=flat-square">
   <img alt="PLpgSQL: 3.9%" src="https://img.shields.io/badge/PLpgSQL-3.9%25-30363d?style=flat-square">
   <img alt="CSS: 2.6%" src="https://img.shields.io/badge/CSS-2.6%25-30363d?style=flat-square">
   <img alt="Shell: 1.2%" src="https://img.shields.io/badge/Shell-1.2%25-30363d?style=flat-square">
 </p>
-<p align="center"><sub>Last 30 days, updated 26 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
+<p align="center"><sub>Last 30 days, updated 27 Nov 2026 (UK). Totals only, client work excluded.</sub></p>
 <!--END_SECTION:stats-->
 
 ## Products
